@@ -1,0 +1,81 @@
+<!DoCTYPE html>
+
+<html>
+	<head>
+		<link rel="shortcut icon" href="../images/">
+		<meta charset = "utf-8">
+		<title> 菜鸟教程 </title>
+
+		<style type="text/css">body {background-color: yellowgreen;}
+		p {color: teal}
+		pre {color: tomato;}
+		</style>
+	</head>
+	<body>
+		<a href="#C地址用法">跳到连接使用</a><br>
+		<a href="#C连接用法">跳到连接使用</a><br>
+		<p>--------------------------分割线-标题-段落-基本用法-----------------------------<br></p>
+		<h1><b>春晓</b></h1>
+		<p>春眠不觉晓,<br />
+			处处闻啼鸟。
+			夜来风雨声，
+			花落知多少。
+		</p>
+
+		<p>--------------------------分割线-各种字体标签-----------------------------------<br></p>
+		<p>删除字和插入字的效果 <br>
+			这是 <del>删除</del> <br>
+			这是 <ins>插入</ins> <br>
+			这是 <small>小号字</small> <br>
+			这是 <sub>下标字</sub> <br>
+			这是 <sup>上标字</sup> <br>
+			这是 <b>加粗字</b> <br>
+			这是 <i>斜体字</i><br>
+			这是 <strong>加粗字</strong><br>
+			这是 <big>放大字</big><br>
+			这是 <em>斜体字</em><br />
+			这是 <code>计算机输出方式</code> <br>
+			这是 <kbd>键盘输入</kbd> <br>
+			这是 <tt>打字机文本</tt> <br>
+			这是 <samp>计算机代码样本</samp> <br>
+			这是 <var>计算机变量</var> <br>
+			这是 <bdo dir="rtl"> 文字方向从左到右显示 </bdo> <br>
+			这是 <abbr title="electrc">缩写用法1</abbr><br>
+			这是 <acronym title="world wide Web">缩写用法2</acronym> <br>
+			这是 <cite title="引用在这里"> 引用的用法1 yyy</cite><br>
+			这是 <q>引用的用法2，引号自动加的</q> <br>
+			这是 <pre>   pre用法
+				完全按照输入的样子进行显示
+				空格   	回车什么的有      处理
+				所以上面这段文字前面的table都保留了
+				</pre> <br>
+			这是 <dfn>定义项目的用法</dfn><br>
+		</p>
+
+		<p id="C地址用法">--------------------------分割线-地址用法-----------------------------------<br></p>
+		<address> 地址用法
+			Written by <a href="mailto:gh370123@sina.com">地址标签的使用</a>.<br> 
+			Visit us at:<br>
+			Example.com<br>
+			Box 564, Disneyland<br>
+			USA
+		</address><br>
+
+		
+		<p id="C连接用法">--------------------------分割线-连接用法-----------------------------------<br></p>
+		<!--  就是在讲 <a> 的用法 如果网页内 id 标签 的引用前面 要加# -->
+		<a href="https://www.runoob.com" target="_blank" rel="noopener noreferrer">这是一个连接</a><br>
+		<a id="tips">id的使用方法</a>
+		<br>
+		<a href="#tips">访问ID使用方法,url是本地文件夹</a>
+		<br>
+		<a href="https://www.runoob.com/html/html-links.html#tips">访问指定的url</a><br>
+		<br>
+		<!--这里的 loading他 lazy 是什么意思没太懂,删除后也没变化-->
+		<img  loading = "lazy" src="../images/1.jpg" width="601" height="338"/>	<br><br>
+		
+		<!--以图片的方式建立url 连接-->
+		<a href="//www.runoob.com/html/html-tutorial.html">
+			<img  border="1" src="../images/9.jpg" alt="HTML 教程" width="64" height="64"></a></p>
+	</body>
+</html>
